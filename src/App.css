@@ -1,0 +1,125 @@
+*{
+    font: 16px times new roman;
+    color: aliceblue;
+    
+    
+    
+}
+
+body {
+    
+    padding-top: 1px;
+    background-color: #1E1E2E; /* Deep Blue Gray */
+    color: #FFFFFF; /* White text for contrast */
+}
+
+
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333 !important; /* Dark background */
+    padding: 3px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Navbar Brand (Logo) */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff !important; /* White text */
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #f8f9fa !important; /* Light text */
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12  !important; /* Highlight on hover */
+}
+
+/* Active Link */
+/* .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: aliceblue !important; 
+} */
+
+/* Navbar Toggler (for mobile) */
+.navbar-toggler {
+    border: none;
+    background-color:#f39c12 ; /* Orange background */
+     padding: 5px 10px;
+     border-radius: 10px;
+    
+   
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+/* Navbar Collapsed Menu */
+.collapse.navbar-collapse {
+    justify-content: flex-end; /* Align menu to the right */
+    
+}
+
+
+.textform{
+    padding-top: 25px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+.btn {
+    background: #44475A; /* Dark grayish blue */
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #6272A4; /* Lighter blue on hover */
+}
+
+ .about {
+        width: 100%; /* Adjust width as needed */
+        margin: 50px auto; /* Center the section */
+        padding: 20px;
+        background: #44475A; /* Dark grayish blue */
+        border-radius: 50px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 7, 0.1); /* Subtle shadow */
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify; /* Center-align text */
+}
+
+.about h2 {
+    color: aliceblue;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about p {
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 1.6;
+}
